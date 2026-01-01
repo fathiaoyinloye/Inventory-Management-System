@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Admin {
+public class ProductAdmin {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Long id;
